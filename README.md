@@ -1,10 +1,10 @@
 ES6 module example for my Iowa Code Camp talk in July 2014
 
-npm install gulp gulp-concat gulp-es6-module-transpiler
-
 bower install react-es6-loader
 
-gulp
+npm install es6-module-transpiler@0.4.0
+
+compile-modules example --to transpiled --infer-name
 
 python -m SimpleHTTPServer 3000
 
